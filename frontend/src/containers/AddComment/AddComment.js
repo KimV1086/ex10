@@ -2,7 +2,7 @@ import React, {Component, Fragment} from 'react';
 import {connect} from "react-redux";
 import {NotificationContainer} from 'react-notifications';
 import AddCommentForm from "../../components/AddCommentForm/AddCommentForm";
-// import {createComment} from "../../store/actions/actions";
+import {createComment} from "../../store/actions/actions";
 
 class AddComment extends Component {
 

@@ -8,7 +8,7 @@ import * as serviceWorker from './serviceWorker';
 import 'react-notifications/lib/notifications.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App';
-// import reducer from './store/reducer/reducers';
+import reducer from './store/reducer/reducers';
 
 const store = createStore(reducer, applyMiddleware(thunkMiddleware));
 

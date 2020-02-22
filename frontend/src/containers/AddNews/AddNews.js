@@ -2,7 +2,7 @@ import React, {Component, Fragment} from 'react';
 import {connect} from "react-redux";
 import {NotificationContainer} from 'react-notifications';
 import AddForm from "../../components/AddForm/AddForm";
-// import {createNews} from "../../store/actions/actions";
+import {createNews} from "../../store/actions/actions";
 
 class AddNews extends Component {
 

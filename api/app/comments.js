@@ -1,9 +1,10 @@
 const multer  = require('multer');
+
 const path = require('path');
 const config = require('../config');
 const express = require('express');
 const nanoid = require('nanoid');
-
+const  news = require('./news');
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
     cb(null, config.uploadPath);

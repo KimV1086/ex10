@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 
 import {CardTitle, CardText, Card, CardBody, CardColumns, Button} from "reactstrap";
 import {NotificationContainer} from 'react-notifications';
-// import {fetchNews, openOneNews, fetchDelete} from "../../store/actions/actions";
+import {fetchNews, openOneNews, fetchDelete} from "../../store/actions/actions";
 
 import NewsThumbnail from "../../components/NewsThumbnail/NewsThumbnail";
 
